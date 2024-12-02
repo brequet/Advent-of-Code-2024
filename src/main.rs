@@ -16,6 +16,7 @@ fn main() {
     let day = &args[1];
     match day.as_str() {
         "1" => days::day01::solve(use_example_input),
+        "2" => days::day02::solve(use_example_input),
         _ => eprintln!("Unknown day: {}", day),
     }
 }
