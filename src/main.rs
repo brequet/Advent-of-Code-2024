@@ -18,6 +18,7 @@ fn main() {
         "1" => days::day01::solve(use_example_input),
         "2" => days::day02::solve(use_example_input),
         "3" => days::day03::solve(use_example_input),
+        "4" => days::day04::solve(use_example_input),
         _ => eprintln!("Unknown day: {}", day),
     }
 }
